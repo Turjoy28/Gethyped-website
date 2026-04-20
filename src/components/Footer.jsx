@@ -128,15 +128,15 @@ const Footer = () => {
 
         <div className="site-footer__panel-wrap">
           <div className="site-footer__sticker" aria-hidden="true">
-            <img src="/assets/footer_sticker.svg" alt="" />
+            <img src={`${import.meta.env.BASE_URL}assets/footer_sticker.svg`} alt="" />
           </div>
 
           <div className="site-footer__panel">
-            <img src="/assets/footer_bg.svg" alt="" aria-hidden="true" className="site-footer__panel-bg" />
+            <img src={`${import.meta.env.BASE_URL}assets/footer_bg.svg`} alt="" aria-hidden="true" className="site-footer__panel-bg" />
 
             <div className="site-footer__panel-content">
               <div className="site-footer__brand">
-                <img src="/assets/site_logo.svg" alt="Get Hyped" className="site-footer__logo" />
+                <img src={`${import.meta.env.BASE_URL}assets/site_logo.svg`} alt="Get Hyped" className="site-footer__logo" />
               </div>
 
               <div className="site-footer__meta">

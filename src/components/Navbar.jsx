@@ -331,7 +331,7 @@ const Navbar = () => {
         <div className="flex shrink-0 items-center justify-start">
           <div className="w-[9.375rem] shrink-0 min-[992px]:h-[clamp(1.95rem,3.95vw,4.75rem)] min-[992px]:w-[clamp(4.75rem,9.8vw,11.76175rem)]">
             <img
-              src="/assets/site_logo.svg"
+              src={`${import.meta.env.BASE_URL}assets/site_logo.svg`}
               alt="Get Hyped Logo"
               className="block h-auto w-full border-0 min-[992px]:h-full"
             />
