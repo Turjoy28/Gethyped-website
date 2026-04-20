@@ -4,20 +4,22 @@ import AboutStrip from './components/AboutStrip';
 import ExpertiseSection from './components/ExpertiseSection';
 import WorkSection from './components/WorkSection';
 import BrandsSection from './components/BrandsSection';
-import CtaSection from './components/CtaSection';
 import Footer from './components/Footer';
 
-export default function App() {
+function App() {
   return (
-    <div>
+    <>
       <Navbar />
-      <HeroSection />
-      <AboutStrip />
-      <ExpertiseSection />
-      <WorkSection />
-      <BrandsSection />
-      <CtaSection />
+      <main className="overflow-x-clip overflow-y-visible">
+        <HeroSection />
+        <AboutStrip />
+        <ExpertiseSection />
+        <WorkSection />
+        <BrandsSection />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }
+
+export default App;
