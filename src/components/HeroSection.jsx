@@ -25,7 +25,7 @@ const heroCards = [
     className: 'origin-bottom rotate-[2.6deg] hero-card--drop-mid max-[640px]:rotate-[2deg]',
   },
   {
-    video: '/assets/petrolhead-loop.mp4',
+    video: `${import.meta.env.BASE_URL}assets/petrolhead-loop.mp4`,
     label: 'WAT DIE AUTO WILT.',
     className: 'hero-card--tilt-car max-[991px]:hidden',
   },
